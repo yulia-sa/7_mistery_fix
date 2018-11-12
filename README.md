@@ -9,7 +9,7 @@
 При запуске скрипта quadratic_equation.py в консоль ничего не выводится. 
 Есть смысл использовать код в виде импортируемого модуля:
 
-```bash
+```python
 from quadratic_equation import get_roots
 
 print(get_roots(1, 2, -3))
@@ -28,7 +28,7 @@ print(get_roots(1, 2, -3))
 Запуск на Linux:
 
 ```bash
-python quadratic_equation.py tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
+python quadratic_equation.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
 ```
 
 Запуск тестов:
